@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="resources/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="resources/main.js"></script>
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="resources/logo.png" width="100" height="100" class="d-inline-block align-center" alt="">
+        Campaign Discussion
+      </a>
+      <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModalLong">
+        Sign In
+      </button>
+    </nav>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Sign-In</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1"><span id="userLabel" class="text-danger warning-text">&times;</span> Username or Email</label>
+                <input id="user" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required="required">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1"><span id="pswLabel" class="text-danger warning-text">&times;</span> Password</label>
+                <input id="psw" type="password" class="form-control" id="exampleInputPassword1" required="required">
+              </div>
+              <div class="row">
+                <button id="signinSubmit" type="submit" class="btn btn-primary mx-auto">Submit</button>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer mx-auto">
+            <p class="text-muted font-weight-bold">Don't have an account?</p>
+            <button type="button" class="btn btn-secondary">Create one today!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid w-75 mx-auto">
+      <div class="row p-0 m-0 py-3">
+        <div class="col-11 p-0 m-0 pr-3">
+          <textarea id="user" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required="required"></textarea>
+        </div>
+        <div class="col-1 p-0 m-0 my-auto">
+          <button type="button" class="btn btn-secondary w-100 h-75" aria-disabled="true" disabled>Send</button>
+        </div>
+      </div>
+
+      <table class="table">
+        <tbody>
+          <tr class="table-danger">
+            <th class="text-danger" scope="row">ConservativeGuy</th>
+            <td>Libs suck</td>
+            <td>1/30/20 2:15 PM</td>
+          </tr>
+          <tr class="table-primary">
+            <th class="text-primary" scope="row">DemDude</th>
+            <td>Yo GOOO Bernie!</td>
+            <td>1/30/20 1:00 PM</td>
+          </tr>
+          <tr class="table-primary">
+            <th class="text-primary" scope="row">AnonDemocrat</th>
+            <td>Make America Blue Again</td>
+            <td>1/30/20 11:30 AM</td>
+          </tr>
+          <tr class="table-secondary">
+            <th class="" scope="row">Independant</th>
+            <td>When's the election???</td>
+            <td>1/30/20 10:15 AM</td>
+          </tr>
+          <tr class="table-danger">
+            <th class="text-danger" scope="row">RepubSays</th>
+            <td>Trump!</td>
+            <td>1/29/20 9:00 AM</td>
+          </tr>
+          <tr class="table-primary">
+            <th class="text-primary" scope="row">AnonDemocrat</th>
+            <td>Hello World!</td>
+            <td>1/29/20 7:20 AM</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
